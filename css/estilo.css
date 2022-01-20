@@ -7,12 +7,14 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    
 }
 
 body{
  background: var(--preto);
  font-family: "arial", times , serif;
- color: white;
+ background-color: var(--preto);
+ 
 }
 
 header .container{
@@ -38,12 +40,34 @@ header nav a:hover{
     color:#fff;
 }
 .filme-principal{
-    font-size: 16px;
-background: linear-gradient(rgba(0,0,0,),rgba(187,33,33,0.5)),url("img/yjsXtps0rw36UB8TomSjI4y4zvR.jpg");
+ font-size: 16px;
+ background:url("/img/yjsXtps0rw36UB8TomSjI4y4zvR.jpg");
  height: 400px;
  background-size:cover;
  display: flex;
  flex-direction: center;
  justify-content:column;
  align-items: flex-start; 
+}
+.ft{
+    height: 300px;
+    width: 300px;
+}
+
+.fundo{
+    background-color: var(--preto);
+}
+.titulo{
+    color: white;
+}
+.descriçâo{
+    color: white;
+}
+.subtitulo{
+    color: white;
+} 
+.box-filme{
+    height: 300px;
+    width: 286px;
+    margin-top: 20px;
 }
